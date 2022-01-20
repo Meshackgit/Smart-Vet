@@ -191,6 +191,7 @@
     background-color: #63a46c;
     color: #f7f7f7;
     font-family: 'Poppins', sans-serif;
+    border : 1px solid#000;
     
 }
 
@@ -275,6 +276,7 @@
         background-color: #63a46c;
         color: #f7f7f7;
         font-family: 'Poppins', sans-serif;
+        border : 5px solid#000;
         
     }
 
