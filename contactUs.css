@@ -1,0 +1,113 @@
+.contact-header {
+    background-image: url(./contactUsImgs/pet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 23rem;
+    background-color: #A9B18F;
+    border-radius: 50px;
+}
+
+.contact-getInfo {
+    padding-left: 80px;
+    width: 80%;
+}
+
+hr {
+    border: 1px solid black
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-info p {
+    padding: 10px 10px 0px 30px;
+}
+
+.contactForm {
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 0.3rem solid black;
+    border-radius: 50px;
+    box-shadow: 20px 20px ;
+    color: #3d7044;
+}
+
+/* Footer */
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+  }
+  
+  .footer-logo {
+    font-size: var(--h3-font-size);
+    color:#63a46c;
+    font-weight: 600;
+  }
+
+  .footer-logo:hover {
+    color:#3d7044;
+  }
+  
+  .footer-description {
+    display: block;
+    font-size: var(--small-font-size);
+    margin: 0.25rem 0 1.5rem;
+  }
+  
+  .footer-social {
+    font-size: 1.5rem;
+    color: #63a46c;
+    margin-right: 1rem;
+  }
+
+  .footer-social:hover {
+    color: #3d7044;
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    color: #3d7044;
+    margin-top: 3rem;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-link:hover {
+    color: #3d7044;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    font-size: var(--small-font-size);
+    color: var(--text-colo-light);
+    margin-top: 3.5rem;
+  }
+
+  .footer-content a img {
+    float: right;
+    padding-right: 100px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
