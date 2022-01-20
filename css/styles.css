@@ -59,7 +59,7 @@
 
 .services-services {
     font-family: 'Caveat', cursive;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./Im');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../services-images/cane4.jpg');
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
