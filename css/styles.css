@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Montserrat:wght@400;600;700;800;900&family=Moon+Dance&family=Nunito:wght@200;300;400;600;700&family=Patua+One&family=Poppins:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Saira+Semi+Condensed:wght@400;600;700;900&family=Urbanist&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.diagnostics{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../Images/image2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.desc1 {
+    display: flex;
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    gap: 8rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagnose{
+    position: absolute;
+    top: 15rem;
+    left: 8vw;
+}
+
+.title{
+    color: #f7f7f7;
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+}
+
+.para{
+    color: #F39237;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    padding: 1rem 3.5rem;
+    background-color: #63a46c;
+    color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    /* top: 35rem;
+    left: 10vw; */
+}
+
+.mini-title{
+    color: #F7f7f7;
+
+}
+
+.text{
+    color: #F39237;
+
+
+}
+
+
+
+.research{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../Images/kinyos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.search{
+    position: absolute;
+    top: 13rem;
+    left: 8vw;
+}
