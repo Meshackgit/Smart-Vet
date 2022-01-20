@@ -1,10 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Mochiy+Pop+P+One&display=swap');
 .custom{
     width:500px;
     margin-inline:auto;
 }
 h1{
+    font-family:'Mochiy Pop P One', sans-serif;
     text-align: center;
+    color: rgb(185, 79, 8);
+}
+h2{
+    font-family:'Balsamiq Sans', cursive;
+    text-align: center;
+    color: black;
 }
 h3{
+    font-family:'Balsamiq Sans', cursive;
     text-align: center;
+    color: rgb(105, 70, 4);
+}
+.flex-container{
+    display:flex;
+    padding: 50px;
+    gap: 15px;
+    
+}
+.vaccination{
+    background-color: orange;
+    padding: 10px;
+    display: none;
+}
+.Check-up{
+    background-color:rgb(245, 151, 117);
+    padding: 10px;
+    display:none;
+}
+.diet{
+    background-color: rgb(236, 139, 41);
+    padding: 10px;
+    display: none;
+}
+.grooming{
+    background-color: rgb(146, 82, 9);
+    padding: 10px;
+    display: none;
+}
+.page{
+    font-family:'Caveat', cursive;
+    background-image: url(/images/canecorso.jpeg);
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding: 0px;
+}
+.btn{
+    background-color: #63a46c;
+    color: white;
+}
+
+.btn:hover{
+    font-family: 'Permanent Marker', cursive;;
+    background-color: #3d7044;
+    color: white;
 }
