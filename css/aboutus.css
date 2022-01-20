@@ -1,0 +1,24 @@
+
+.page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* justify-content: center; */
+}
+
+ .img{
+ border: 5px solid #63A46c;
+ border-radius: 50px;
+ height: 45%;
+ width: 45%;
+}
+
+.btn{
+    border : 5px solid#63A46c;
+}
+
+.text0{
+    font-size: 1.3rem;
+
+    
+}
