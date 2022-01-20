@@ -58,12 +58,12 @@
 
 .services-services {
     font-family: 'Caveat', cursive;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/cane4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Smart-Vet/services-images/cane4.jpg);
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 190vh;
+    height: 100vh;
 }
 
 .services-btn {
