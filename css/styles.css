@@ -1,10 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Mochiy+Pop+P+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Montserrat:wght@400;600;700;800;900&family=Moon+Dance&family=Nunito:wght@200;300;400;600;700&family=Patua+One&family=Poppins:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Saira+Semi+Condensed:wght@400;600;700;900&family=Urbanist&display=swap');
+
+.services-custom {
+    width: 500px;
+    margin-inline: auto;
+}
+
+.services-h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+    color: rgb(92, 63, 14);
+}
+
+.services-h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    color: black;
+}
+
+.services-h3 {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    color: rgb(105, 70, 4);
+}
+
+.services-flex-container {
+    display: flex;
+    padding: 50px;
+    gap: 15px;
+
+}
+
+.services-vaccination {
+    background-color: orange;
+    padding: 10px;
+    display: none;
+}
+
+.services-Check-up {
+    background-color: rgb(245, 151, 117);
+    padding: 10px;
+    display: none;
+}
+
+.services-diet {
+    background-color: rgb(236, 139, 41);
+    padding: 10px;
+    display: none;
+}
+
+.services-grooming {
+    background-color: rgb(146, 82, 9);
+    padding: 10px;
+    display: none;
+}
+
+.services-services {
+    font-family: 'Caveat', cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Smart-Vet/services-images/cane4.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.services-btn {
+    background-color: #63a46c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.services-btn:hover {
+    font-family: 'Permanent Marker', cursive;
+    ;
+    background-color: #3d7044;
+    color: rgb(235, 184, 184);
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+        padding: 10px;
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .flex-container {
+        padding: 7px;
+        gap: 7px;
+        font-size: 7px;
+    }
+
+    h3 {
+        font-size: 7px;
+    }
+
+    .flex-container {
+        width: 80%vh;
+    }
+}
+
+.services-button {
+    width: 450px;
+    margin-inline: auto;
+
+}
+
+.services-flex-container2 {
+    display: flex;
+    padding: 50px;
+    gap: 15px;
+}
+
+.services-a {
+    background-color: yellowgreen;
+}
+
+.services-flex-container2 p {
+    color: rgb(2, 28, 32);
+}
+
+.services-flex-container2 h3 {
+    color: rgb(51, 34, 4);
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .diagnostics{
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../Images/image2.jpg');
     background-position: center;
