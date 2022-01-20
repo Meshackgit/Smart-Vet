@@ -37,7 +37,7 @@ hr {
 
 /* Footer */
 .footer-container {
-    display: grid;
+    display: grid!important;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     row-gap: 2rem;
   }
