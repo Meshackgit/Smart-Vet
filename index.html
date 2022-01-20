@@ -1,53 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart-Vet</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<section class="home"></section>
-<section class="aboutus"></section>
-<section class="services">
-    <div class="page">
-    <h1>Our Services</h1>
-    <h2>Smart-vet is the leader of the pack when it comes to the absolute best care for your animals.</h2>
-    <div class="flex-container">
-        <div class="vaccination" id="mit">
-            <h3>Vaccination</h3>
-            <p>Vaccination has long been an effective way to reduce disease burden in pets and farm animals, and is a key tool in maintaining animal health and welfare. </p>
-        </div>   
-        <div class="Check-up" id="mot">
-            <h3>Check-ups</h3>
-            <p>Our check-up's are meant to allow the owner of the animals track the animal's health and know where he or she is supposed to work on regarding their animal's current health status. </p>
-        </div> 
-        <div class="diet" id="met">
-            <h3>Relocation</h3>
-              <p>Are you moving cross country and don't know how you are going to fit your pet in the car along with the rest of the family?</p>
-        </div>   
-        <div class="grooming" id="mat">
-            <h3>Grooming</h3>
-            <p>Our grooming package includes spa bath, nail clipping, coat treaming, sanitary trim, brush out and more others. </p>
+    <section class="home"></section>
+    <section class="aboutus"></section>
+    <section class="services-services">
+        <div class="services-page">
+            <h1 class="services-h1">Our Services</h1>
+            <h2 class="services-h2">Smart-vet is the leader of the pack when it comes to the absolute best care for your animals.</h2>
+            <div class="services-flex-container">
+                <div class="services-vaccination" id="mit">
+                    <h3 class="service-h3">Vaccination</h3>
+                    <p>Vaccination has long been an effective way to reduce disease burden in pets and farm animals, and
+                        is a key tool in maintaining animal health and welfare. </p>
+                </div>
+                <div class="services-Check-up" id="mot">
+                    <h3 class="services-h3">Check-ups</h3>
+                    <p>Our check-up's are meant to allow the owner of the animals track the animal's health and know
+                        where he or she is supposed to work on regarding their animal's current health status. </p>
+                </div>
+                <div class="services-diet" id="met">
+                    <h3 class=services-h3>Relocation</h3>
+                    <p>Are you moving cross country and don't know how you are going to fit your pet in the car along
+                        with the rest of the family?</p>
+                </div>
+                <div class="services-grooming" id="mat">
+                    <h3 class="services-h3">Grooming</h3>
+                    <p>Our grooming package includes spa bath, nail clipping, coat treaming, sanitary trim, brush out
+                        and more others. </p>
+                </div>
+            </div>
+            <div class="services-custom">
+                <button type="submit" class="services-btn" id="mit1">Vaccination</button>
+                <button type="submit" class="services-btn" id="mot1">check-ups</button>
+                <button type="submit" class="services-btn" id="met1">Relocation</button>
+                <button type="submit" class="services-btn" id="mat1">Grooming</button>
+            </div>
+            <div class="services-flex-container2">
+                <div class="day care" id="a">
+                    <h3 class="services-h3">Day care</h3>
+                    <p>Our Dog Daycare is tailor-made to give your dog the best experience together with some
+                        socialization training. Every session is supervised by our trained Pets Paradise care givers and
+                        every dog is taken care of accordingly.</p>
+                </div>
+                <div class="services-boarding" id="b">
+                    <h3 class="services-h3">Pet boarding</h3>
+                    <p>We are committed to ensuring that every pet feels relaxed and secure while in our care. Because
+                        no dog is quite like yours, we offer a la carte services to add to our standard boarding package
+                        for a fully customized stay.</p>
+                </div>
+                <div class="services-nutrition" id="c">
+                    <h3 class="services-h3">Nutrition</h3>
+                    <p>From their days as puppies and kittens to their years as senior dogs and cats, our biology-based
+                        nutrition stays a step ahead for differences you can see, feel and trust.</p>
+                </div>
+            </div>
+            <div class="services-button">
+                <button type="submit" class="services-btn" id="a1"> Day care</button>
+                <button type="submit" class="services-btn" id="b1"> Pet boarding</button>
+                <button type="submit" class="services-btn" id="c1"> Nutrition</button>
+            </div>
         </div>
-    </div>
-    <div class="custom">
-    <button type="submit" class="btn" id="mit1">Vaccination</button>
-    <button type="submit" class="btn" id="mot1">check-ups</button>
-    <button type="submit" class="btn" id="met1">Relocation</button>
-    <button type="submit" class="btn" id="mat1">Grooming</button>
-    </div>
-    </div>
-</section>
-<section class="diagnostics"></section>
-<section class="research"></section>
-<section class="contactus"></section>
-<section class="footer"></section>
+    </section>
+    <section class="diagnostics"></section>
+    <section class="research"></section>
+    <section class="contactus"></section>
+    <section class="footer"></section>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,68 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Mochiy+Pop+P+One&display=swap');
-.custom{
-    width:500px;
-    margin-inline:auto;
+
+.services-custom {
+    width: 500px;
+    margin-inline: auto;
 }
-h1{
-    font-family:'Mochiy Pop P One', sans-serif;
+
+.services-h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
     text-align: center;
-    color: rgb(185, 79, 8);
+    color: rgb(92, 63, 14);
 }
-h2{
-    font-family:'Balsamiq Sans', cursive;
+
+.services-h2 {
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
     color: black;
 }
-h3{
-    font-family:'Balsamiq Sans', cursive;
+
+.services-h3 {
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
     color: rgb(105, 70, 4);
 }
-.flex-container{
-    display:flex;
+
+.services-flex-container {
+    display: flex;
     padding: 50px;
     gap: 15px;
-    
+
 }
-.vaccination{
+
+.services-vaccination {
     background-color: orange;
     padding: 10px;
     display: none;
 }
-.Check-up{
-    background-color:rgb(245, 151, 117);
+
+.services-Check-up {
+    background-color: rgb(245, 151, 117);
     padding: 10px;
-    display:none;
+    display: none;
 }
-.diet{
+
+.services-diet {
     background-color: rgb(236, 139, 41);
     padding: 10px;
     display: none;
 }
-.grooming{
+
+.services-grooming {
     background-color: rgb(146, 82, 9);
     padding: 10px;
     display: none;
 }
-.page{
-    font-family:'Caveat', cursive;
-    background-image: url(/images/canecorso.jpeg);
-    background-attachment:fixed;
-    background-size: 100%;
-    background-repeat:no-repeat;
-    padding: 0px;
-}
-.btn{
-    background-color: #63a46c;
-    color: white;
+
+.services-services {
+    font-family: 'Caveat', cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/cane4.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 190vh;
 }
 
-.btn:hover{
-    font-family: 'Permanent Marker', cursive;;
-    background-color: #3d7044;
+.services-btn {
+    background-color: #63a46c;
     color: white;
+    border: none;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.services-btn:hover {
+    font-family: 'Permanent Marker', cursive;
+    ;
+    background-color: #3d7044;
+    color: rgb(235, 184, 184);
 }
 
 @media screen and (max-width: 600px) {
@@ -88,7 +104,31 @@ h3{
         font-size: 7px;
     }
 
-    .flex-container  {
+    .flex-container {
         width: 80%vh;
     }
+}
+
+.services-button {
+    width: 450px;
+    margin-inline: auto;
+
+}
+
+.services-flex-container2 {
+    display: flex;
+    padding: 50px;
+    gap: 15px;
+}
+
+.services-a {
+    background-color: yellowgreen;
+}
+
+.services-flex-container2 p {
+    color: rgb(2, 28, 32);
+}
+
+.services-flex-container2 h3 {
+    color: rgb(51, 34, 4);
 }

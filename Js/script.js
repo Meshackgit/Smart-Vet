@@ -14,3 +14,15 @@ $("#met1").click(function(){
 $("#mat1").click(function() {
     $("#mat").slideToggle();
 })
+
+$("#a1").click(function() {
+    $("#a").slideToggle();
+})
+
+$("#b1").click(function() {
+    $("#b").slideToggle();
+})
+
+$("#c1").click(function() {
+    $("#c").slideToggle();
+})
