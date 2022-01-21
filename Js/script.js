@@ -27,6 +27,9 @@ sr.reveal(
     interval: 200,
   }
 )
+
+
+// 
  $("#mit1").click(function() {
         $("#mit").slideToggle();
     });

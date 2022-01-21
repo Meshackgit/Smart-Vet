@@ -2,22 +2,40 @@
 .page{
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
 }
 
  .img{
  border: 5px solid #63A46c;
  border-radius: 50px;
- height: 45%;
- width: 45%;
+ height: 80%;
+ width: 80%;
 }
 
 .btn{
     border : 1px solid#000;
 }
 
+.about-title{
+    font-size: 1.2rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.about-title::before{
+    position: absolute;
+    content: " ";
+    width: 15%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
+    left: -0.2rem;
+    top: 1.2rem;
+}
+
+
 .text0{
-    font-size: 1.3rem;
+    font-size: 1rem;
 
     
 }

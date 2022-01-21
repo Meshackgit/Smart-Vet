@@ -56,7 +56,7 @@ a {
     width: calc(100% - 2rem);
     margin: auto;
     transition: 0.4s ease;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .nav-menu{

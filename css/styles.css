@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Mochiy+Pop+P+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&family=Montserrat:wght@400;600;700;800;900&family=Moon+Dance&family=Nunito:wght@200;300;400;600;700&family=Patua+One&family=Poppins:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Saira+Semi+Condensed:wght@400;600;700;900&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 .services-custom {
     width: 500px;
@@ -9,19 +6,19 @@
 }
 
 .services-h1 {
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: rgb(92, 63, 14);
 }
 
 .services-h2 {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: black;
 }
 
 .services-h3 {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: rgb(105, 70, 4);
 }
@@ -58,7 +55,7 @@
 }
 
 .services-services {
-    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../services-images/cane4.jpg');
     background-attachment: scroll;
     background-position: center;
@@ -153,8 +150,8 @@
 .desc1 {
     display: flex;
     position: absolute;
-    top: 30rem;
-    left: 15rem;
+    top: 25rem;
+    left: 5rem;
     gap: 8rem;
 }
 
@@ -176,28 +173,28 @@
 
 .title{
     color: #f7f7f7;
-    margin-bottom: 2rem;
     font-size: 4.5rem;
 }
 
 .para{
-    color: #F39237;
-    margin-bottom: 2rem;
+    color: #F39237; 
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 
 .btn{
-    padding: 1rem 3.5rem;
+    padding: 1rem 2.5rem;
     background-color: #63a46c;
     color: #f7f7f7;
     font-family: 'Poppins', sans-serif;
-    border : 1px solid#000;
-    
 }
 
-.desc{
+.desc1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    position: absolute;
+    top: 30rem;
+    left: 8vw;
 }
 
 .mini-title{
@@ -207,10 +204,7 @@
 
 .text{
     color: #F39237;
-
-
 }
-
 
 
 .research{
@@ -225,8 +219,8 @@
 
 .search{
     position: absolute;
-    top: 5rem;
-    left: 6vw;
+    top: 9rem;
+    left: 8vw;
 }
 
 
