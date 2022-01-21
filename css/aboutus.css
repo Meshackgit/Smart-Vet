@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     height: 60vh;
-    /* justify-content: center; */
 }
 
  .img{
@@ -14,7 +13,7 @@
 }
 
 .btn{
-    border : 5px solid#63A46c;
+    border : 1px solid#000;
 }
 
 .about-title{
@@ -39,4 +38,36 @@
     font-size: 1rem;
 
     
+}
+
+
+@media screen and (max-width:600px){
+    .aboutus{
+        background-color: #63A46c;
+        
+    }
+
+
+.page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+ .img{
+ border: 5px solid #63A46c;
+ border-radius: 50px;
+ height: 45%;
+ width: 45%;
+}
+
+.btn{
+    border : 1px solid#000;
+}
+
+.text0{
+    font-size: 1rem;
+
+    
+}
 }
